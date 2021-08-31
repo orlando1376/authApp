@@ -1,27 +1,22 @@
 # AuthApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+[Gracias a Fernando Herrera por este curso](https://www.udemy.com/course/angular-fernando-herrera/learn/lecture/24479848#questions)
 
-## Development server
+Esta App es un ejemplo para utilizar el backend auth-server hecho en la sesión anterior
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Temas puntuales
 
-## Code scaffolding
+- Conectar Angular con nuestro backend
+- Manejo de JWT
+- Lazyload y rutas
+- Guards
+- Mantener el estado del usuario
+- Manejo de errores
+- RXJS y Operadores
+- SweetAlert
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalación [SweetAlert](https://sweetalert2.github.io/)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+``` code
+npm install sweetalert2
+````
